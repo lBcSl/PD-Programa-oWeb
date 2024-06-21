@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Estilos CSS</title>
+    <style>
+        /* 1. Estilização dos links */
+        a {
+            color: red; /* Cor padrão */
+            text-decoration: none; /* Remove sublinhado */
+            transition: color 0.3s ease; /* Transição suave de cor */
+        }
+
+        a:hover {
+            color: lemon; /* Cor ao passar o mouse */
+        }
+
+        /* 2. Customização de parágrafos */
+        p {
+            font-family: Arial; /* Fonte padrão */
+        }
+
+        h1 + p {
+            font-weight: bold; /* Parágrafos após h1 ficam em negrito */
+        }
+
+        /* 3. Estilização da classe .destaque */
+        .destaque {
+            font-family: Arial; /* Fonte padrão */
+        }
+
+        .destaque p {
+            font-weight: bold; /* Parágrafos dentro de .destaque ficam em negrito */
+        }
+
+        .destaque strong {
+            color: red; /* Texto strong dentro de .destaque fica em vermelho */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Exemplo de Estilos CSS</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Links com Mudança de Cor</h2>
+        <p><a href="#">Link padrão</a></p>
+        <p><a href="#">Link com hover</a></p>
+    </section>
+
+    <section>
+        <h2>Customização de Parágrafos</h2>
+        <p>Parágrafo padrão com fonte Arial.</p>
+        <h1>Exemplo de Título</h1>
+        <p>Parágrafo em negrito após título.</p>
+    </section>
+
+    <section>
+        <h2>Estilização da Classe .destaque</h2>
+        <div class="destaque">
+            <p>Parágrafo dentro de div com a classe .destaque.</p>
+            <strong>Texto forte dentro de div com a classe .destaque.</strong>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Referências: <a href="#">Link 1</a>, <a href="#">Link 2</a></p>
+    <p>Data de criação: 21 de junho de 2024</p>
+</footer>
+
+</body>
+</html>
+s
